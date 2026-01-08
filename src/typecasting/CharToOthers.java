@@ -1,0 +1,21 @@
+package typecasting;
+
+public class CharToOthers {
+    public static void main(String[] args) {
+        char c = '&';  
+        byte b = (byte) c;// char → byte
+        short s = (short) c;// char → short
+        int i = (int) c;// char → int
+        long l = (long) c;// char → long
+        float f = (float)c;// char → float
+        double d = (double)c;// char → double
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+    }
+}
+
+

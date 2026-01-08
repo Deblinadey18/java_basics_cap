@@ -1,0 +1,17 @@
+package literals_data;
+
+public class Numbers {
+    //Ctrl+M
+	public static void main(String[] args) {
+		//literals
+		System.out.println(100);
+		System.out.println(-100);
+		System.out.println(0.65);
+		System.out.println(-6.7);
+		System.out.println(001);
+		System.out.println(013);//0-->octal format(0-->0*8^2+1-->1*8^1+3-->3*8^0==0+8+3==11)
+
+
+		
+	}
+}

@@ -1,0 +1,13 @@
+package literals_data;
+
+public class StringBoolean {
+	
+	public static void main(String[] args) {
+		//literals String---->Group of characters
+    System.out.println("123ABC@#$");
+    //Literals boolean---->
+    System.out.println(true);//True-->don't do it(its a variable or put it in a "" it will be consider as strings)
+    System.out.println(false);//False-->don't do it(its a variable or put it in a "" it will be consider as strings)
+	}
+
+}

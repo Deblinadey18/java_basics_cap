@@ -1,0 +1,15 @@
+package Program_variable;
+
+public class Program5 {
+ public static void main(String[]args) {
+	 byte b=20;//1 byte
+	 byte b1=b;
+	 System.out.println(b1);
+	 int b2=b;//4 byte
+	 System.out.println(b2);
+	 //int c=40;//4 byte
+	 //byte c1=c;//1 byte
+	 //System.out.println(c1);
+
+ }
+}

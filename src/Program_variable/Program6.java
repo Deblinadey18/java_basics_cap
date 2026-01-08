@@ -1,0 +1,17 @@
+package Program_variable;
+
+public class Program6 {
+
+	public static void main(String[] args) {
+		char c='A';//2 byte
+		int i=c;//4 byte
+		//2 byte---->4 byte ---->(implicit Typecasting)Typecasting
+		//implicit Typecasting(widening)
+		//explicit Typecasting (narrowing)
+		System.out.println(i);
+		int j=65;//4 byte
+		//char ch=j;//2 byte
+		//System.out.println(ch);
+
+	}
+}
