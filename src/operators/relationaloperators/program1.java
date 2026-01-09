@@ -15,6 +15,9 @@ public class program1 {
 		System.out.println(res);
 		//>,<,<=,>=,==,!= byte,short,int,long,double,float
 		//string,boolean---->==,!=
+	System.out.println(10+20+""+20+true);
+	System.out.println(20+""+true);
+	//System.out.println(true+10+20+""+20+);
 
 
 	}

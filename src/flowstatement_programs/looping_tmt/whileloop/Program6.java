@@ -1,0 +1,29 @@
+package flowstatement_programs.looping_tmt.whileloop;
+
+public class Program6 {
+
+	public static void main(String[]args) {
+		int num=153;
+		int sum=0;
+		int temp=num;
+		int temp2=num;
+		int digit=0;
+		while(num!=0) {
+			digit=digit+1;
+			num=num/10;
+		}
+		while(temp!=0) {
+			sum=(int)Math.pow(temp%10,digit)+sum;
+			temp=temp/10;
+		}
+		
+		if(sum==temp2) {
+			System.out.println("Armstrong");
+		}
+		else {
+			System.out.print("not armstrong");
+		}
+	}
+
+
+}
