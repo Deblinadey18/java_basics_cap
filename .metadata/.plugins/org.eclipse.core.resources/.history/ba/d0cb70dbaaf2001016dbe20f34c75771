@@ -1,0 +1,22 @@
+package encapsulation;
+public class Demo {
+	private Demo() {
+		
+	}
+	private int a;
+	//set value here or read value
+	
+	//method write design setter method
+	// read the method -- > getter method
+	public int getValueA()
+	{
+		return a;
+	}
+	public void setValue(int a)
+	{
+		this.a=a;
+	}
+	
+
+
+}

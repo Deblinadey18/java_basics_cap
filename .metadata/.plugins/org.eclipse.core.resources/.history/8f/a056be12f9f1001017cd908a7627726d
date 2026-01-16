@@ -1,0 +1,17 @@
+package assignment15jan;
+
+public class Anagram {
+
+	public static void main(String[]args) {
+		String a1="silent";
+		String a2="listen";
+		if(a1.length()==a2.length()) {
+			
+			
+		}
+		else {
+			System.out.println("Not Anagram");
+
+		}
+	}
+}

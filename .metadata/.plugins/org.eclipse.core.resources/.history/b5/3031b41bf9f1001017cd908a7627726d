@@ -1,0 +1,32 @@
+package assignment15jan;
+
+public class Anagram {
+
+	public static void main(String[]args) {
+		String a1="silent";
+		String a2="listen";
+		int c=0;
+		if(a1.length()==a2.length()) {
+			char[]ch1 = a1.toCharArray();
+			char[]ch2=a2.toCharArray();
+			  for(int i=0;i<ch1.length;i++) {
+			   for(int j=0;j<ch2.length;j++) {
+				   if(ch1[i]==ch2[j]) {
+					   c=c+1;
+				   }
+				   
+			   }
+			   }
+			 if(c==a1.length()) { 
+					System.out.println("Not Anagram");
+
+			 }
+			 else {
+				 System.out.println("Not Anagram");}
+		}
+		else {
+			System.out.println("Not Anagram");
+
+		}
+	}
+}

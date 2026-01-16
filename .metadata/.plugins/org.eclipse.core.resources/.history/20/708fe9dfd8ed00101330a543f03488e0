@@ -1,0 +1,22 @@
+package flowstatement_programs.Decisionstmt;
+import java.util.*;
+public class Program2 {
+		public static void main(String[]args) {
+			Scanner sc= new Scanner(System.in);
+			int num;
+			num=sc.nextInt();
+			int temp=num;
+			int last=num%10;
+			int first=num/10;
+			int sum=last+first;
+			int product=last*first;
+			if(sum==product) {
+				System.out.println("spy number");
+			}
+			else {
+				System.out.println("not a spy number");
+			}
+		}
+
+
+}

@@ -1,0 +1,14 @@
+package oops.fundamental.staticmethod;
+
+public class Progrm1 {
+	static int i=test();
+	public static void main(String[]args){
+	System.out.println("Main Start");
+	System.out.println("Main end");
+}
+	public static int test() {
+		System.out.println("Test");
+		System.out.println(i);
+		return 10;
+	}
+	}

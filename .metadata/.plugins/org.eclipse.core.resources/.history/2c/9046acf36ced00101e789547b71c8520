@@ -1,0 +1,27 @@
+package flowstatement_programs.looping_tmt.forloop;
+import java.util.Scanner;
+public class program4 {
+	     public static void main(String[] args) {
+	         Scanner sc = new Scanner(System.in);
+
+	         int n = sc.nextInt();
+	         int m = sc.nextInt();
+
+	         int sumDivisible = 0;
+	         int sumNotDivisible = 0;
+
+	         for (int i = 1; i <= m; i++) {
+	             if (i % n == 0) {
+	                 sumDivisible += i;
+	             } else {
+	                 sumNotDivisible += i;
+	             }
+	         }
+
+	         int result = sumNotDivisible - sumDivisible;
+	         System.out.println(result);
+	     }
+	 }
+
+ }
+}

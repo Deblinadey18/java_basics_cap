@@ -1,0 +1,10 @@
+package oops.fundamental.non_static.methods;
+
+public class Person {
+
+	String name;
+	int age;
+	String gender;
+	
+	
+}

@@ -1,0 +1,23 @@
+package oops.fundamental.non_static.methods;
+
+public class Test {
+ public static void main(String[]args) {
+	 Person person1=new Person();
+	 System.out.println("person1 :"+person1);
+	 person1.initialize("Abhi",25, "Male");
+	 //person1.name="Abi";
+	 //person1.age=25;
+	 //person1.gender="male";
+	 person1.display();
+	 
+	 Person person2=new Person();
+	 System.out.println("person2 :"+person2);
+	 person2.initialize("Bhi", 24, "Female");
+	 //person2.name="Bhi";
+	 //person2.age=24;
+	 //person2.gender="Female";
+	 person1.display();
+
+
+ }
+}

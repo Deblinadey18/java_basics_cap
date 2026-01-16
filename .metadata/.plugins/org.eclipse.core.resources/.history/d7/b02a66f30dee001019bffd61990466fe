@@ -1,0 +1,15 @@
+package methods;
+
+public class Program3 {
+		public static void main(String[]args) {
+		   	test();	
+		   	}
+		//break cannot be used outside of a loop or a switch
+		public static void test() {
+			if(true) {
+		   	System.out.println("Test");
+		   	return;}
+			System.out.println("hi");
+		   
+	}}
+

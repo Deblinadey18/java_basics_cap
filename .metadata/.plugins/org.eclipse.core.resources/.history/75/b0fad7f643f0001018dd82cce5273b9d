@@ -1,0 +1,27 @@
+package methods;
+
+public class StrongNumber {
+	public static void main(String[]agrs) {
+	int num=132;
+	int sum=0;
+	int temp=num;
+	while(num!=0) {
+		int digit=num%10;
+		int square=fact(digit);
+		sum=sum+square;
+		num=num/10;
+	}
+if (sum==temp) {
+	System.out.println("ITS A STRONG NUMBER");
+}
+else {
+	System.out.println("ITS NOT A STRONG NUMBER");
+}
+}
+	public static int fact(int n) {
+		int s=1;
+		for(int i=1;i<=n;i++) {
+			s=s*i;
+		}
+	}
+	}

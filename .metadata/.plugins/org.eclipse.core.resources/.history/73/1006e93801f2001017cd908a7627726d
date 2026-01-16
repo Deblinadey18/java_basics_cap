@@ -1,0 +1,25 @@
+package assignment15jan;
+
+public class oc2 {
+		public static void main(String[]args) {
+			String a1="hello";
+			int len=a1.length();
+			char[]ch1 = a1.toCharArray();
+			char [] ch2=new char[len];
+			for(int i=0;i<len;i++) {
+				int c=1;
+				if( ch1[i]==' '){
+						continue;
+				}
+				for(int j=i+1;j<len;j++) {
+					if(ch1[j]==ch1[i]) {
+						c=c+1;
+						ch1[j]=' ';
+					}
+
+				}
+			System.out.println("The occurance of "+ch1[i]+" is "+c);}
+			}
+		}
+
+}

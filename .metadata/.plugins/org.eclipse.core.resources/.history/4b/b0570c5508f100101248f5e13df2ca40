@@ -1,0 +1,14 @@
+package oops.fundamental.non_static;
+
+public class Program4{ 
+    int a;
+	double d;
+	byte b;
+	 String s;
+	 public static void main(String[]args) {
+		 
+		    Program4 obj1=new Program4();
+			System.out.println(obj1.a);
+			System.out.println(obj1.d);
+			
+}}

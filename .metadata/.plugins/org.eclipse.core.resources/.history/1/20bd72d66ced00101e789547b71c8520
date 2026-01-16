@@ -1,0 +1,7 @@
+package flowstatement_programs.looping_tmt.forloop;
+
+public class program4 {
+ public static void main(String[]args) {
+	 
+ }
+}

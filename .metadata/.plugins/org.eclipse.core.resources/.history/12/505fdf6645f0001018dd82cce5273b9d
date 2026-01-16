@@ -1,0 +1,14 @@
+package methods;
+
+public class Program6 {
+
+	public static void  main(String[]args) {
+		int n=15;
+		num(n);
+	}
+	public static void  num(int n) {
+		int number=n+1;
+		for(int i=1;)
+		
+	}
+}

@@ -1,0 +1,12 @@
+package association;
+
+public class Car {
+//new Car()
+	private String brand;//nul
+	private double price;//0.0
+	
+	private Engine engine;//null
+	Car(){
+		engine=new Engine();
+	}
+}

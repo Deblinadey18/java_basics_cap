@@ -1,0 +1,8 @@
+package oops.fundamental.non_static.methods;
+
+public class StudentTest {
+	//consturctor
+	//NSM-->return type
+ public static void main(String[]args) {
+	 Student p1=new Student("A",20,89.50);
+	 p1.display();}}

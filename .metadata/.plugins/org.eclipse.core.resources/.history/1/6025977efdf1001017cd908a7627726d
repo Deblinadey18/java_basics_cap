@@ -1,0 +1,24 @@
+package assignment15jan;
+
+public class Occurance {
+
+	public static void main(String[]args) {
+		String a1="hello";
+		int len=a1.length();
+		char[]ch1 = a1.toCharArray();
+		char [] ch=new char[len];
+		for(int i=0;i<len;i++) {
+			int c=0;
+			for(int j=0;j<len;j++) {
+				if(ch[j]==ch1[i]) {
+					c=c+1;
+				}
+				else {
+					  ch[i]=ch1[i];
+					  c=c+1;
+				}
+			}
+		
+		System.out.println("The occurance of"+ch1[i]+"is"+c);}
+		}
+	}

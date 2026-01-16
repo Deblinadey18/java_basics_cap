@@ -1,0 +1,22 @@
+package oops.fundamental.non_static.initializer;
+
+public class Program1 {
+
+	static {
+		System.out.println("Static Block1");
+	}
+	//Non static initializer
+ {
+		System.out.println("Static Block4");
+	}
+	static {
+		System.out.println("Static Block3");
+	}
+	public static void main(String[]args) {
+		System.out.println("Main");
+		new Program1();
+	}
+	static {
+		System.out.println("Static Block2");
+	}
+}

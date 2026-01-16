@@ -1,0 +1,26 @@
+package methods;
+
+public class Program5 {
+	public static void main(String[]args) {
+		num(1,2);
+		num('A',20.5);
+		num('A','B');
+		//compiler-->actual argument
+		/*
+		 process of binding between method call stmt and implementation of the method
+		  during compilation by the compiler based on actual argument 
+		  */
+	}
+	//method overloading
+	public static void num(int a,int b) {
+		//called method
+		//implementation
+		System.out.println("int,int");
+		
+	}
+	public static void num(char a,char b) {
+		//called method
+		//implementation
+		System.out.println("char,char");
+	}
+}

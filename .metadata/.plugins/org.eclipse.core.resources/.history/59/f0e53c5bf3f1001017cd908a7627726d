@@ -1,0 +1,10 @@
+package stringbuilder;
+
+public class Program2 {
+	public static void main(String[]args) {
+		StringBuilder sb=new StringBuilder();
+		System.out.println(sb.length());
+		sb.append("Hello");//default 16 capacity then hello the length is 5 so 16+5=21;
+		System.out.println(sb.capacity());
+
+}}

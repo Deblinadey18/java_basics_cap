@@ -1,0 +1,28 @@
+package oops.fundamental.non_static.methods;
+
+public class Student {
+
+	String name;
+	int id;
+	double percentage;
+	Student(){
+		//System.out.println("No argument");
+	}
+	Student(int a){
+		System.out.println("Student int a");
+	}
+	public void display() {
+		//System.out.println("this:"+this);
+		System.out.println("Student Name:"+name);
+		System.out.println("Student id number"+id);
+		System.out.println("Percentage:"+percentage);
+
+	}
+	Student(String name,int id,double percentage) {
+		//System.out.println("this:"+this);
+		this.name=name;
+		this.id=id;
+		this.percentage=percentage;
+	}
+	
+}

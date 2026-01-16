@@ -1,0 +1,9 @@
+package encapsulation;
+
+public class Test3 {
+	
+	public int getValueA() {
+		return a;
+	}
+	public void setValue
+}
