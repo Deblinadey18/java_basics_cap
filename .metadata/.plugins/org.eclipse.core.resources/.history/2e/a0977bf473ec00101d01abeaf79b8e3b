@@ -1,0 +1,10 @@
+package Program_variable;
+
+public class Program6 {
+
+	public static void main(String[] args) {
+		char c='A';//2 byte
+		int i=c;//4 byte
+		System.out.println(i);
+	}
+}

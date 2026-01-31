@@ -1,0 +1,20 @@
+package operators.arithmeticoperator;
+
+public class program1 {
+
+	public static void main(String[]args) {
+		//addition
+		//normal,concatenation
+		int a=10;
+		int b=30;
+		System.out.println(10+20);
+		System.out.println(a+b);
+
+		
+		System.out.println(""+10+20);
+
+		System.out.println(10+20+"Hello"+100);
+
+		
+	}
+}

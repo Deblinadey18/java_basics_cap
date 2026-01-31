@@ -1,0 +1,16 @@
+package abstraction;
+
+public abstract class Course {
+	String name;
+	public Course(String name)
+	{
+		this.name=name;
+	}
+	public void Courseinfo()
+	{
+		System.out.println("Course name :"+name);
+	}
+
+	public abstract void CoursePrice();
+
+}

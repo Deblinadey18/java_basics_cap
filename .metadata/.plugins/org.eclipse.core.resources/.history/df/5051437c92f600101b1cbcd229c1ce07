@@ -1,0 +1,11 @@
+package abstraction;
+
+public abstract class Course {
+	String name;
+	public Course(String name)
+	{
+		this.name=name;
+	}
+	public abstract void OnlineCourse();
+
+}

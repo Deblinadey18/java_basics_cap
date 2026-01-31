@@ -1,0 +1,38 @@
+package linkedlist;
+public class LinkedListMethods {
+public static void main(String[] args) {
+LinkedList<String> list = new LinkedList<String>();
+// addFirst()
+System.out.println(list);
+list.addFirst("A");
+list.addFirst("B");
+System.out.println("after addFirst(): "+ list);
+System.out.println("==========");
+// addlast
+System.out.println(list);
+list.addLast("C");
+list.addLast("D");
+System.out.println("after addLast(): "+ list);
+System.out.println("========");
+// getFirst()
+System.out.println(list);
+System.out.println("getFirst(): "+ list.getFirst());
+System.out.println("====== ");
+// getLast()
+System.out.println(list);
+System.out.println("getLast(): "+ list.getLast());
+System.out.println("============================== ");
+// removeFirst()
+System.out.println(list);
+System.out.println("removeFirst(): "+ list.removeFirst());
+System.out.println(list);
+System.out.println("==============================");
+// removeLast()
+System.out.println(list);
+System.out.println("removeLast(): "+ list.removelast());
+System.out.println(list);
+System.out.println("=========================");
+// offerFirst()
+System.out.println(list);
+System.out.println("offerFirst(): "+ list.offerFirst("E"));
+System.out.println(list);}}

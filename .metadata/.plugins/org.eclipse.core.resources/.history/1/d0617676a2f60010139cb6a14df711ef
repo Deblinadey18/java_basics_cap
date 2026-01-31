@@ -1,0 +1,12 @@
+package abstraction;
+
+public class Demo implements I,I1{
+	public static void main(String[] args) {
+		I.m();
+		System.out.println(I.a);
+		//I.a=50;//Not possible
+		System.out.println(a);
+		//m();//not possible
+	}
+
+}

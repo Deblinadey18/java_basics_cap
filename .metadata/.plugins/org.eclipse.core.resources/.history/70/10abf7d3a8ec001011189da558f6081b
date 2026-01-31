@@ -1,0 +1,21 @@
+package typecasting;
+
+public class Short_to_others {
+
+	public static void main(String[] args) {
+
+        int a = 97;
+        byte b = (byte) a;//short→ byte
+        int s = a;//short→ int
+        long l = a;// short → long
+        float f = a;// short→ float
+        double d = a;// short→ double
+        char c = (char) a;//short → char
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(c);
+    }
+}

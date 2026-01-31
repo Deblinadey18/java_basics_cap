@@ -1,0 +1,8 @@
+package hashset;
+
+public class LinkedHashSetDemo {
+	public static void main(String[] args) {
+		LinkedHasSet<Integer> lhs=new LinkedHas
+	}
+
+}

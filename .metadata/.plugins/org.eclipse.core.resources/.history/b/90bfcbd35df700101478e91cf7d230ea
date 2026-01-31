@@ -1,0 +1,14 @@
+package expection_handling;
+
+public class CustomException {
+ public static void main(String[] args) {
+	if(percentage >0 && percentage <=100 ) {
+		if(percentage >45) {
+			System.out.println("Passed");
+		}
+	}
+	else {
+		
+	}
+}
+}

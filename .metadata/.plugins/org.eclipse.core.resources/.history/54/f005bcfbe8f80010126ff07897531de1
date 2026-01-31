@@ -1,0 +1,22 @@
+package array_list;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListTask2 {
+	public static void main(String[] args) {
+		ArrayList<StudentInfo> list =new ArrayList<StudentInfo>();
+		list.add(new StudentInfo(1,"Ravi",80.0));
+		list.add(new StudentInfo(2,"Pratik",80.0));
+		list.add(new StudentInfo(3,"Ram",80.0));
+		list.add(new StudentInfo(4,"Sham",80.0));
+		list.add(new StudentInfo(5,"Raj",80.0));
+		
+		
+		Iterator<StudentInfo> itr= list.iterator();
+		while(itr.hasNext())
+		{
+			System.out.println(itr.next());
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package array;
+
+public class Progarm2 {
+public static void main(String[] args) {
+		int [][]a= {{2,8,9},{3,6,5,4},{1,2}};
+		for(int i=0;i<a.length;i++) {
+			for(int j=0;j<a[i].length;j++) {
+			System.out.println(a[i][j]);
+		}}
+}
+}

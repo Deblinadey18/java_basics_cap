@@ -1,0 +1,11 @@
+package abstraction;
+
+public abstract class A3 extends A2{
+	public void a() {
+		System.out.println("A3 test");
+	}
+	public void a3() {
+		System.out.println("a3()");
+	}
+
+}

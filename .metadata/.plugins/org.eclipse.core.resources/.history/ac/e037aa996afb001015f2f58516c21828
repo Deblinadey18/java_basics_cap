@@ -1,0 +1,7 @@
+package map;
+
+import java.util.Comparator;
+
+public class MyIntegerComp implements Comparator<? super Integer> {
+
+}

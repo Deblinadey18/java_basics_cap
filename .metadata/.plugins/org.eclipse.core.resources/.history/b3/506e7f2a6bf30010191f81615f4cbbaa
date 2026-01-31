@@ -1,0 +1,5 @@
+package association.aggregation;
+
+public class Book {
+
+}

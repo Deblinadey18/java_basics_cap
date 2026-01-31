@@ -1,0 +1,18 @@
+package typecasting;
+
+public class FloatToOthers {
+	public static void main(String[] args) {
+        float f= 67.5;
+        short s = b;// byte→ short
+        int i = b;// byte->int
+        long l = b;// byte → long
+        float f = b;// byte → float
+        double d = b;// byte → double
+        char c = (char) b;// byte → char
+        System.out.println(s);
+        System.out.println(i);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(c);
+}

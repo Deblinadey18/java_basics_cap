@@ -1,0 +1,15 @@
+package expection_handling;
+
+public class CheckedExceptionDemo {
+
+	public static void main(String[] args) {
+	//	try {
+			Class.forName("");
+			
+		//}
+		//catch(ClassNotFoundException c) {
+			//System.out.println("Exception handled");
+		//}
+		System.out.println("program ended");	
+	}
+}

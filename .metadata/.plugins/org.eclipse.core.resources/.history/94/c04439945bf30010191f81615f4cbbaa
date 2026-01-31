@@ -1,0 +1,23 @@
+package association;
+
+public class Car2 {
+		//new Car()
+		private String brand;//null
+		private double price;//0.0
+		
+		
+		private Engine tyre;//null
+		
+		Car2(){
+			tyre=new tyre();
+		}
+		
+		public String getBrand() {
+			return brand;
+		}
+		
+		public double getPrice() {
+			return price;
+		}
+		
+}

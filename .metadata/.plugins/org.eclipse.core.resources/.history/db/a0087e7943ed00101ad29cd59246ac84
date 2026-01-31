@@ -1,0 +1,13 @@
+package flowstatement_programs.looping_tmt.dowhileloop;
+
+public class Program1 {
+
+	public static void main(string[]args) {
+		//exit control loop[
+		int i=1;
+		do {
+			System.out.println("Hello");
+			i++;
+		}while(i<=3);
+	}
+}

@@ -1,0 +1,10 @@
+package abstraction;
+
+public class Demo implements {
+	public static void main(String[] args) {
+		I.m();
+		System.out.println(I.a);
+		//I.a=50;//Not possible
+	}
+
+}

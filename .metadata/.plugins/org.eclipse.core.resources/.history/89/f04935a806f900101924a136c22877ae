@@ -1,0 +1,15 @@
+package examthirdweek;
+
+
+public class Demo{
+    public static void main(String[] args) {
+        int result = calculate(5);
+        System.out.println(result);
+    }
+
+    static int calculate(int n) {
+        if (n <= 1)
+            return 1;
+        return n * calculate(n - 1);
+    }
+}

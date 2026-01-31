@@ -1,0 +1,12 @@
+package examthirdweek;
+
+
+public class Demo{
+    public static void main(String[] args) {
+        Student[] s = new Student[2];
+        s[0] = new Student(1);
+        s[1] = new Student(2);
+
+        System.out.println(s[0].id + s[1].id);
+    }
+}

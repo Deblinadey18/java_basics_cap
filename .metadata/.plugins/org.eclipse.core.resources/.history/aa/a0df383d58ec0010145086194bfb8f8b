@@ -1,0 +1,17 @@
+package literals_data;
+
+public class program4 {
+	//Class Block
+	
+	/*
+	            Multiline comments
+	            Variable
+	            Method/Function
+	            Constructor
+	            Initializer
+	 */
+	public static void main(String []args) {
+		System.out.println("Comments");
+	}
+
+}

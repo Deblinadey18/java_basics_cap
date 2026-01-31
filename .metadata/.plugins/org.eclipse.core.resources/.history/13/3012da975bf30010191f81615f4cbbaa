@@ -1,0 +1,12 @@
+package oops.fundamental.non_static.methods;
+
+public class Program1 {
+
+	public static void main(String[]args) {
+		Program1 obj1=new Program1();
+		obj1.demo();
+	}
+	public void demo() {
+		System.out.println("Demo");
+	}
+}

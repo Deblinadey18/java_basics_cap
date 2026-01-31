@@ -1,0 +1,34 @@
+package object_demo;
+
+public class Student1 {
+	String name;
+	String phone;
+	String email;
+	
+	
+	public Student1(String name,String phone,String email){
+		this.name=name;
+		this.phone=phone;
+		this.email=email;
+	}
+		public boolean equals(Object obj)
+		{
+			if(obj instanceof Employee1) {
+				Employee1 e=(Employee1)obj;
+				if(this.email==e.email||)
+			}
+			Student1 s=(Student1) o;
+			if(this.phone==s.phone)
+				return true;
+			else
+				return false;
+		}
+		public static void main(String[] args) {
+			Student s1=new Student(1,"sourab",80.0);
+			Student s2=new Student(1,"sourab",80.0);		
+			System.out.println(s1==s2);//false
+			System.out.println(s1.equals(s2));
+		}
+
+	
+	}

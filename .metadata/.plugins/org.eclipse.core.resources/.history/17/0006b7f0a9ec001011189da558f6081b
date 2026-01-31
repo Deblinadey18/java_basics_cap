@@ -1,0 +1,21 @@
+package typecasting;
+
+public class ByteToOthers {
+	public static void main(String[] args) {
+        byte a = 97;
+        int b = a;// byte->int
+        short s = a;// byte→ short
+        long l = a;// byte → long
+        float f = a;// byte → float
+        double d = a;// byte → double
+        char c = (char) a;// byte → char
+        System.out.println(b);
+        System.out.println(s);
+        System.out.println(l);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(c);
+    }
+}
+
+

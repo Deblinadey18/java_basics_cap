@@ -1,0 +1,13 @@
+package literals_data;
+
+public class Program3 {
+	
+	public static void main(String[] args) {
+		//literals String---->Group of characters
+    System.out.println("123ABC@#$");
+    //Literals boolean---->
+    System.out.println(true);
+    System.out.println(false);
+	}
+
+}

@@ -1,0 +1,20 @@
+package array_dsa;
+
+public class Program3 {
+	public static void main(String[] args) {
+		int []a=new int[7];
+		a[0]=10;
+		a[1]=30;
+		a[2]=8;
+		a[3]=6;
+		a[4]=7;
+		a[5]=8;
+	
+		
+		for(int i=a.length-1;i>3;i--) {
+			a[i]=a[i-1];
+			}
+		a[3]=40;
+		for(int num:a) {
+			System.out.println(a[num]);
+}}}

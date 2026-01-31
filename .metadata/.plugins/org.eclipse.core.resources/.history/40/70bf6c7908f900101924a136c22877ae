@@ -1,0 +1,10 @@
+package examthirdweek;
+
+
+public class Demo{
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("GoodMorning");
+        sb.replace(4, 11, "Evening");
+        System.out.println(sb);
+    }
+}

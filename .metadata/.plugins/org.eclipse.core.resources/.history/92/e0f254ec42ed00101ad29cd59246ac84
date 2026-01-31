@@ -1,0 +1,26 @@
+package flowstatement_programs.looping_tmt.whileloop;
+
+public class Program7 {
+	public static void main(String[]args) {
+		int num=25;
+		int flag=0;
+		int square=num*num;
+		int digit=0;
+		while(square!=0){
+			digit=square%10;
+			if(digit==num) {
+			  flag=1;
+			}
+			square=square/10;	
+		}
+		if (flag==1) {
+			System.out.println("Its automorphic");
+		}
+		else {
+			System.out.println("Its not automorphic");
+
+		}
+		
+	}
+
+}

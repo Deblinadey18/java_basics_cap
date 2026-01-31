@@ -1,0 +1,8 @@
+package examthirdweek;
+
+public class Demo {
+		 public static void main(String[] args) {
+		        Parent p = new Childx();
+		        p.show();
+		    }
+		}

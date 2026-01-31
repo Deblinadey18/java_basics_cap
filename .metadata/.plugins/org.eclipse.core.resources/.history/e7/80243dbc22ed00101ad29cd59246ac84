@@ -1,0 +1,14 @@
+package operator.logicaloperator;
+
+public class Program1 {
+
+	public static void main(String[]args) {
+		//logical Operator(mulitiple conditions) 1.AND(&&),2.OR(||),3.NOT(!)
+		//it is used for boolean values
+		System.out.println(true && false && true);
+		int a=5;
+		System.out.println(a>10 && ++a>a);
+		System.out.println(a);
+		
+	}
+}

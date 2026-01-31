@@ -1,0 +1,19 @@
+package examthirdweek;
+
+
+public class Demo{
+	public static void main(String[] args) {
+        int x = 10;
+        change(x);
+        System.out.println(x);
+    }
+
+    static void change(int x) {
+        x = x + 5;
+        modify(x);
+    }
+
+    static void modify(int x) {
+        x = x * 2;
+    }
+}

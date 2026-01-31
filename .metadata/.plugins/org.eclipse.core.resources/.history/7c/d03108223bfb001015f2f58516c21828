@@ -1,0 +1,26 @@
+package hashset;
+
+public class Person {
+	int id;
+	String email;
+	int age;
+	public Person(int id ,String email, int age) {
+		this.id=id;
+		this.email = email;
+		this.age =age;
+		}
+	@Override
+	public String toString() {
+	return "Person [id=" + id + ", email=" +email + ", age=" +age + "]";
+	}
+	public int hashCode() {
+	return ((Integer)id).hashCode();
+	}
+	public boolean equals (Object obj) {
+	Person e =(Person)obj;
+	if(this.id == e.id) {
+	return true;
+	}
+	return false;
+	}}
+
