@@ -1,0 +1,21 @@
+package flowstatement_programs.looping_tmt.whileloop;
+
+public class program5 {
+	public static void main(String[]args) {
+		int num=21;
+		int temp=num;
+		int result=0;
+		while(num!=0) {
+			result=result*10+num%10;
+			num=num/10;
+		}
+		if(result==temp) {
+			System.out.println("palindrome");
+		}
+		else {
+			System.out.println("Not palindrome");
+
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package Program_variable;
+
+public class program3 {
+	//global variable
+	//declaration purpose
+	static int i=100;
+	public static void main(String [] args) {
+		//local value
+		int a=10;
+		System.out.println(a);
+		a=20;
+		System.out.println(a);
+		System.out.println(i);
+
+
+	}
+
+}
